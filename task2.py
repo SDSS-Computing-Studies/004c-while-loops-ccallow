@@ -15,3 +15,16 @@ outputs:
 Access granted
 Access denied
 """
+Pw = "12345"
+Us = "admin"
+print("===========")
+while True:
+    a = input("\nUsername: ")
+    if a == Us:
+        b=input("Password: ")
+        if b == Pw:
+            break
+    else:
+        print("Access denied")
+
+print("Access Granted!")

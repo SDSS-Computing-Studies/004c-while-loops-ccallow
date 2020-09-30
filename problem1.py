@@ -17,17 +17,24 @@ outputs:
 Access granted
 Acces denied
 """
+import math
+import time
+
+count =0
 
 Pw = "12345"
 Us = "admin"
 print("===========")
-while:
+while count<3:
+    count=count +1
     a = input("\nUsername: ")
     if a == Us:
         b=input("Password: ")
+        count=count+1
         if b == Pw:
             break
-    else:
-        print("Access denied")
+while count ==3:
+    print("access denied")
+    break
+    
 
-print("Access Granted!")

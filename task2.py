@@ -19,10 +19,11 @@ Pw = "12345"
 Us = "admin"
 print("===========")
 while True:
-    a = input("Username: ")
+    a = input("Username: ").strip()
     if a == Us:
-        b=input("Password: ")
+        b=input("Password: ").strip()
         if b == Pw:
+            print("Access granted")
             break
     else:
         print("Access denied")

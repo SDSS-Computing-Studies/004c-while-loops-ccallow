@@ -32,9 +32,10 @@ while count<3:
         b=input("Password: ").strip()
         count=count+1
         if b == Pw:
+            print("Access granted")
             break
 while count ==3:
-    print("access denied")
+    print("Access denied")
     break
     
 

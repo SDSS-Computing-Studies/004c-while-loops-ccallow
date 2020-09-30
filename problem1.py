@@ -27,9 +27,9 @@ Us = "admin"
 print("===========")
 while count<3:
     count=count +1
-    a = input("Username: ")
+    a = input("Username: ").strip()
     if a == Us:
-        b=input("Password: ")
+        b=input("Password: ").strip()
         count=count+1
         if b == Pw:
             break

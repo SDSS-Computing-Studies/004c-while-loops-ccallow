@@ -19,7 +19,7 @@ Pw = "12345"
 Us = "admin"
 print("===========")
 while True:
-    a = input("\nUsername: ")
+    a = input("Username: ")
     if a == Us:
         b=input("Password: ")
         if b == Pw:

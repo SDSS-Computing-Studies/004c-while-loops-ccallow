@@ -21,8 +21,8 @@ That is an even integer
 """
 print("===========")
 while True:
-    num = float(input("\nEnter a number: "))
-    if num/2 == int(num/2) and num>0:
+    num = float(input("Enter a number: "))
+    if num/2.0 == int(num/2.0) and num>0:
         break
     else:
         print("That is not an even integer")

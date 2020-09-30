@@ -15,7 +15,8 @@ example:
 Enter a number: 4
 4 8 12 16 20 24 28 32 36 40 44 48
 """
-joe = 1
-while joe<=12:
-    a=float(input("int number:  "))
-    
+count = 1
+a=int(input("int number:  "))
+while count<=12:
+    print(a*count, end=" ")
+    count +=1

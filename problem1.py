@@ -38,7 +38,6 @@ while count<3:
     else:
         print("Access denied")    
 while count ==3:
-    print("Too many attemps! Try again later!!!")
     break
     
 

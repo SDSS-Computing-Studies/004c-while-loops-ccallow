@@ -33,8 +33,12 @@ while count<3:
         if b == Pw:
             print("Access granted")
             break
+        else:
+            print("Access denied")
+    else:
+        print("Access denied")    
 while count ==3:
-    print("Access denied")
+    print("Too many attemps! Try again later!!!")
     break
     
 
